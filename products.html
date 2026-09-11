@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>产品中心 - 多谱多勒 (DPDL)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+    <!-- 导航同上 (省略部分重复代码) -->
+    <nav class="bg-white shadow-md p-4">
+        <div class="container mx-auto flex justify-between">
+            <a href="index.html" class="text-2xl font-bold text-blue-900">DPDL</a>
+            <div class="space-x-6">
+                <a href="index.html">首页</a>
+                <a href="products.html" class="text-blue-600 font-bold">产品中心</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mx-auto py-12 px-4 flex">
+        <!-- 侧边栏 -->
+        <aside class="w-1/4">
+            <h2 class="text-xl font-bold mb-6">产品分类</h2>
+            <ul class="space-y-4">
+                <li><a href="#" class="text-blue-600">非制冷红外模组</a></li>
+                <li><a href="#" class="hover:text-blue-600">测温热像仪</a></li>
+                <li><a href="#" class="hover:text-blue-600">手持整机</a></li>
+            </ul>
+        </aside>
+
+        <!-- 产品列表 -->
+        <main class="w-3/4 grid grid-cols-2 gap-8">
+            <div class="bg-white border p-4">
+                <img src="https://irmodules.com/uploads/20220623/f0156f082e6c5188f61536b139265691.png" class="w-full mb-4">
+                <h3 class="font-bold">D640M 高清机芯</h3>
+                <p class="text-sm text-gray-500">640×512分辨率 / 12μm像元</p>
+                <a href="product-detail.html" class="mt-4 inline-block text-blue-700 font-bold border-b border-blue-700">查看详情</a>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
