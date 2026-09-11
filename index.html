@@ -471,24 +471,24 @@
             </div>
         </div>
     </section>
-    <!-- 召唤行动 (CTA) / 联系模块 -->
-    <section class="relative py-24 bg-[#1f0505] overflow-hidden" data-page-node-id="cta-contact-section">
-        <!-- 氛围背景：模拟中间微亮、四周暗沉的深红射灯效果，完美还原参考图 -->
-        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-brand-darkred/30 via-[#1f0505]/80 to-[#140303]"></div>
+      <!-- 召唤行动 (CTA) / 联系模块 (已同步首页品牌规范) -->
+    <section class="relative py-20 bg-brand-darkred overflow-hidden" data-page-node-id="cta-contact-section">
+        <!-- 增加一个极简的暗红色渐变遮罩，增加质感同时不脱离品牌色 -->
+        <div class="absolute inset-0 bg-gradient-to-br from-brand-darkred via-[#7a1414] to-gray-900 opacity-90"></div>
         
         <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center" data-aos="fade-up">
-            <!-- 主标题 -->
-            <h2 class="text-3xl md:text-[40px] font-bold text-white tracking-wide mb-6 leading-tight">
+            <!-- 主标题：保持与全站一致的字重和间距 -->
+            <h2 class="text-3xl md:text-[36px] font-bold text-white tracking-wide mb-5 leading-tight">
                 让您的装备拥有一双「多波段的眼睛」
             </h2>
             
-            <!-- 副标题 -->
-            <p class="text-gray-300 text-sm md:text-base mb-10 font-light tracking-wide">
+            <!-- 副标题：调整透明度，符合苹果风的柔和感 -->
+            <p class="text-white/80 text-sm md:text-base mb-10 font-light tracking-wide max-w-2xl mx-auto">
                 提供从模组到系统的灵活合作模式，技术对接、定制开发、批量交付一站完成。
             </p>
             
-            <!-- 品牌黄按钮 -->
-            <a href="contact.html" class="inline-flex items-center justify-center px-10 py-3.5 bg-brand-yellow text-gray-900 text-[15px] font-medium rounded-full hover:bg-yellow-400 hover:shadow-[0_8px_20px_rgba(240,192,48,0.3)] transition-all duration-300 transform hover:-translate-y-1 apple-card">
+            <!-- 按钮：严格使用 Tailwind 配置的 brand-yellow，并保持全站统一的悬浮交互 -->
+            <a href="contact.html" class="inline-flex items-center justify-center px-10 py-3.5 bg-brand-yellow text-gray-900 text-[15px] font-medium rounded-full hover:bg-yellow-400 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
                 立即联系商务 <i class="fa-solid fa-arrow-right ml-2 text-sm"></i>
             </a>
         </div>
