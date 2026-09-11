@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" data-page-node-id="YyUBZ0YJuH73BhlfRckCkU">
     <title>多谱多勒 DPDL - 芯片级多波段AI视觉模组解决方案商</title>
     <!-- 引入 Tailwind CSS 框架（用于极简快速排版） -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="assets/vendor/tailwind.js"></script>
     <!-- 引入 FontAwesome 图标库 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" data-page-node-id="vAERjh00fdDd6xVwXgvcu9">
+    <link rel="stylesheet" href="assets/vendor/fontawesome/all.min.css" data-page-node-id="vAERjh00fdDd6xVwXgvcu9">
     <!-- 引入 AOS 动画库（实现苹果风格的滚动淡入效果） -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" data-page-node-id="jHQwDgHB8oGVf8VzjBNyiY">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" data-page-node-id="jHQwDgHB8oGVf8VzjBNyiY">
     
     <script>
         tailwind.config = {
@@ -187,10 +187,10 @@
 
     <!-- 主视觉 / Banner (Hero 轮播区) -->
     <section class="relative overflow-hidden bg-gray-50" data-page-node-id="W5XW5iYnIGjjDx0StNsSVG">
-        <div class="relative h-[760px] md:h-[860px]" id="heroSlider" data-page-node-id="heroSliderWrap">
+        <div class="relative aspect-[15/8]" id="heroSlider" data-page-node-id="heroSliderWrap">
             <!-- Slide 1：芯片级模组（原 Hero，不动） -->
             <div class="hero-slide absolute inset-0 transition-opacity duration-1000 ease-in-out opacity-100 z-10" data-page-node-id="heroSlide1">
-                <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover" alt="芯片级多波段模组" data-page-node-id="heroSlide1Bg">
+                <img src="assets/img/poster/poster-1.png" class="absolute inset-0 w-full h-full object-cover" alt="芯片级多波段模组" data-page-node-id="heroSlide1Bg">
                 <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-black/15 to-black/50" data-page-node-id="heroSlide1Shade"></div>
                 <div class="relative z-10 h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center text-center" data-page-node-id="heroSlide1Content">
                     <h1 class="text-5xl md:text-6xl font-bold text-white tracking-tight mb-6 drop-shadow-lg" data-page-node-id="heroSlide1Title">
@@ -205,7 +205,7 @@
 
             <!-- Slide 2：红外机芯（新增） -->
             <div class="hero-slide absolute inset-0 transition-opacity duration-1000 ease-in-out opacity-0 z-0" data-page-node-id="heroSlide2">
-                <img src="https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?q=80&w=2070&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover" alt="红外机芯" data-page-node-id="heroSlide2Bg">
+                <img src="assets/img/poster/poster-2.png" class="absolute inset-0 w-full h-full object-cover" alt="红外机芯" data-page-node-id="heroSlide2Bg">
                 <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-black/15 to-black/50" data-page-node-id="heroSlide2Shade"></div>
                 <div class="relative z-10 h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center text-center" data-page-node-id="heroSlide2Content">
                     <h1 class="text-5xl md:text-6xl font-bold text-white tracking-tight mb-6 drop-shadow-lg" data-page-node-id="heroSlide2Title">
@@ -219,7 +219,7 @@
 
             <!-- Slide 3：芯片级集成 / AI 边缘算力（新增） -->
             <div class="hero-slide absolute inset-0 transition-opacity duration-1000 ease-in-out opacity-0 z-0" data-page-node-id="heroSlide3">
-                <img src="https://images.unsplash.com/photo-1555664424-778a1e5e1b48?q=80&w=2070&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover" alt="AI芯片" data-page-node-id="heroSlide3Bg">
+                <img src="assets/img/poster/poster-3.jpg" class="absolute inset-0 w-full h-full object-cover" alt="AI芯片" data-page-node-id="heroSlide3Bg">
                 <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-black/15 to-black/50" data-page-node-id="heroSlide3Shade"></div>
                 <div class="relative z-10 h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center text-center" data-page-node-id="heroSlide3Content">
                     <h1 class="text-5xl md:text-6xl font-bold text-white tracking-tight mb-6 drop-shadow-lg" data-page-node-id="heroSlide3Title">
@@ -302,7 +302,7 @@
                 <!-- 产品1 -->
                 <div class="apple-card bg-gray-50 rounded-3xl overflow-hidden cursor-pointer" data-aos="fade-up" data-aos-delay="100" data-page-node-id="CHqecjInhFQge8xSD9s2Cb">
                     <div class="h-64 overflow-hidden relative" data-page-node-id="lHr28v0Pf7RhormMjwNlAz">
-                        <img src="https://images.unsplash.com/photo-1599394022918-6c2776530abb?q=80&w=2070&auto=format&fit=crop" class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" alt="单波段热成像" data-page-node-id="oSexUhVjPDr0HLNEEqP9Fw">
+                        <img src="assets/img/unsplash-1599394022918-6c2776530abb.jpg" class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" alt="单波段热成像" data-page-node-id="oSexUhVjPDr0HLNEEqP9Fw">
                     </div>
                     <div class="p-8" data-page-node-id="15M6cpbZH0TojWmxzV8VRs">
                         <h4 class="text-2xl font-bold text-gray-900 mb-2" data-page-node-id="1yid8J6nQ6fIbaf6EurkPq">单波段热成像</h4>
@@ -313,7 +313,7 @@
                 <!-- 产品2 -->
                 <div class="apple-card bg-gray-50 rounded-3xl overflow-hidden cursor-pointer" data-aos="fade-up" data-aos-delay="200" data-page-node-id="qalid6PRSa04qJ5uiorANA">
                     <div class="h-64 overflow-hidden relative" data-page-node-id="Br4xp8ExiJXYJyW3r5xa68">
-                        <img src="https://images.unsplash.com/photo-1555664424-778a1e5e1b48?q=80&w=2070&auto=format&fit=crop" class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" alt="单芯片双波段" data-page-node-id="hCrZmnLzX2QJpK1FvKOFUv">
+                        <img src="assets/img/unsplash-1555664424-778a1e5e1b48.jpg" class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" alt="单芯片双波段" data-page-node-id="hCrZmnLzX2QJpK1FvKOFUv">
                     </div>
                     <div class="p-8" data-page-node-id="mKeTFS1HgxEzJlHxFPa0Dl">
                         <h4 class="text-2xl font-bold text-gray-900 mb-2" data-page-node-id="GD9KgNgbbGjDkOjRrG5yG8">单芯片双波段</h4>
@@ -324,7 +324,7 @@
                 <!-- 产品3 -->
                 <div class="apple-card bg-gray-50 rounded-3xl overflow-hidden cursor-pointer" data-aos="fade-up" data-aos-delay="300" data-page-node-id="GakBS5FPU2mZSCsAn1dtfw">
                     <div class="h-64 overflow-hidden relative" data-page-node-id="LpVJEdYAhcufTqBveLmhGM">
-                        <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2070&auto=format&fit=crop" class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" alt="AI成像系统" data-page-node-id="uDPA4uSpw5ZVgpQtg8GIjI">
+                        <img src="assets/img/unsplash-1526374965328-7f61d4dc18c5.jpg" class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" alt="AI成像系统" data-page-node-id="uDPA4uSpw5ZVgpQtg8GIjI">
                     </div>
                     <div class="p-8" data-page-node-id="CBAnkOoJ2p8DgEDIcX5Onj">
                         <h4 class="text-2xl font-bold text-gray-900 mb-2" data-page-node-id="eOAPwfuXuazKhBqxpz51DV">AI成像系统</h4>
@@ -378,7 +378,7 @@
                     </div>
                 </div>
                 <div class="relative" data-aos="fade-left" data-page-node-id="GWnlom3Zef3EoFeAvgULAk">
-                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop" class="rounded-2xl shadow-2xl opacity-80" alt="Tech board" data-page-node-id="lWUh0wvoVsD3b5JVKkoAx4">
+                    <img src="assets/img/unsplash-1518770660439-4636190af475.jpg" class="rounded-2xl shadow-2xl opacity-80" alt="Tech board" data-page-node-id="lWUh0wvoVsD3b5JVKkoAx4">
                 </div>
             </div>
         </div>
@@ -396,7 +396,7 @@
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4" data-page-node-id="qxxnAELr2AGFD0F5f1Hgzo">
                 <!-- 军工机载 (占大图) -->
                 <div class="col-span-2 row-span-2 relative rounded-2xl overflow-hidden group cursor-pointer" data-aos="zoom-in" data-page-node-id="IS0LgHr3c9EjiLALpN5CRK">
-                    <img src="https://images.unsplash.com/photo-1540960010078-4389650ee4eb?q=80&w=2070&auto=format&fit=crop" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt="机载" data-page-node-id="7QcyY1OlaeFPuHYYi5I59b">
+                    <img src="assets/img/unsplash-1436491865332-7a61a109cc05.jpg" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt="机载" data-page-node-id="7QcyY1OlaeFPuHYYi5I59b">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" data-page-node-id="g1GlDFt2Xm6fibpKqRZcgo"></div>
                     <div class="absolute bottom-6 left-6" data-page-node-id="m3EZTHUwdiR1po0JXFt6e5">
                         <span class="px-3 py-1 bg-brand-darkred text-white text-xs font-bold rounded-sm mb-2 inline-block" data-page-node-id="HzFIBHV50GApCQm4clewSw">军工与国防</span>
@@ -405,7 +405,7 @@
                 </div>
                 <!-- 安防边境 -->
                 <div class="relative h-64 rounded-2xl overflow-hidden group cursor-pointer" data-aos="zoom-in" data-aos-delay="100" data-page-node-id="XoJtkAd1E4d4O6Es0vVjXO">
-                    <img src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?q=80&w=2065&auto=format&fit=crop" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt="边境安全" data-page-node-id="iTzBE9DAh8IJ8cD6a23Q4R">
+                    <img src="assets/img/unsplash-1557597774-9d273605dfa9.jpg" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt="边境安全" data-page-node-id="iTzBE9DAh8IJ8cD6a23Q4R">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" data-page-node-id="3HAvxJc8g6v1CB1eI8eLW9"></div>
                     <div class="absolute bottom-4 left-4" data-page-node-id="4DWsmdBR5aXFXyvIFRKySy">
                         <span class="px-2 py-1 bg-gray-800 text-white text-xs rounded-sm mb-1 inline-block" data-page-node-id="EwDTs7SiqM3p7XYbdguG9Y">安防监控</span>
@@ -414,7 +414,7 @@
                 </div>
                 <!-- 智慧城市 -->
                 <div class="relative h-64 rounded-2xl overflow-hidden group cursor-pointer" data-aos="zoom-in" data-aos-delay="200" data-page-node-id="mNRQIXzy4TK3zi2drt4J75">
-                    <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=2070&auto=format&fit=crop" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt="智慧城市" data-page-node-id="P6TPWMJFunNbYbu2j4OnYR">
+                    <img src="assets/img/unsplash-1480714378408-67cf0d13bc1b.jpg" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt="智慧城市" data-page-node-id="P6TPWMJFunNbYbu2j4OnYR">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" data-page-node-id="OzwJuyGyFdFTAoLJDB7RRM"></div>
                     <div class="absolute bottom-4 left-4" data-page-node-id="W73mOmCyx6BbOExl0jK0EH">
                         <span class="px-2 py-1 bg-gray-800 text-white text-xs rounded-sm mb-1 inline-block" data-page-node-id="G7A56FeT4320QU5VRfEbce">安防监控</span>
@@ -423,7 +423,7 @@
                 </div>
                 <!-- 电力检测 -->
                 <div class="relative h-64 rounded-2xl overflow-hidden group cursor-pointer" data-aos="zoom-in" data-aos-delay="300" data-page-node-id="hisbEDTY2MTyQW9ETPppIG">
-                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=2070&auto=format&fit=crop" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt="电力检测" data-page-node-id="8TuIK4eEoUPhMsE4AR49gh">
+                    <img src="assets/img/unsplash-1473341304170-971dccb5ac1e.jpg" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt="电力检测" data-page-node-id="8TuIK4eEoUPhMsE4AR49gh">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" data-page-node-id="mpk9LwPGnQEotkzPZvjtkr"></div>
                     <div class="absolute bottom-4 left-4" data-page-node-id="c62dnPBXYNGtq5PXBFZC6j">
                         <span class="px-2 py-1 bg-gray-800 text-white text-xs rounded-sm mb-1 inline-block" data-page-node-id="H3XEgFIW4rILqIBanlSZCj">工业与科研</span>
@@ -432,7 +432,7 @@
                 </div>
                 <!-- 搜救 -->
                 <div class="relative h-64 rounded-2xl overflow-hidden group cursor-pointer" data-aos="zoom-in" data-aos-delay="400" data-page-node-id="FuYZphNy1a4ZFEn8A1tBva">
-                    <img src="https://images.unsplash.com/photo-1506558197775-87bd8996b27e?q=80&w=2070&auto=format&fit=crop" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt="搜救" data-page-node-id="hbozsRhbPlGVs9kCpPfQba">
+                    <img src="assets/img/unsplash-1508614589041-895b88991e3e.jpg" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt="搜救" data-page-node-id="hbozsRhbPlGVs9kCpPfQba">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" data-page-node-id="PP3Mf9GWvBBHmCwbuYS1Oz"></div>
                     <div class="absolute bottom-4 left-4" data-page-node-id="fOHg591EyH5ADnlqjkQj7W">
                         <span class="px-2 py-1 bg-gray-800 text-white text-xs rounded-sm mb-1 inline-block" data-page-node-id="KA0BUCnVGDAIYsM07mCeIj">安防监控</span>
@@ -546,7 +546,7 @@
     </footer>
 
     <!-- 引入并初始化 AOS 动画脚本 -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
     <script>
         AOS.init({
             duration: 800, // 动画持续时间（毫秒）
